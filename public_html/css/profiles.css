@@ -1,0 +1,64 @@
+.little-profile {
+    position: relative;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    column-gap: 10px;
+    width: min-content;
+    height: min-content;
+    margin: 5px 0;
+}
+
+.little-profile > .round-image,
+.little-profile > .verified {
+    aspect-ratio: 1;
+    border: 1px solid black;
+    border-radius: 100%;
+}
+
+.little-profile > .verified {
+    border: none;
+    border-radius: none;
+}
+
+.little-profile > .user-info {
+    align-items: center;
+}
+
+.little-profile > .round-image > img {
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}
+
+.little-profile > .verified > img {
+    width: 100%;
+    height: 100%;
+}
+
+.little-profile > div > .display-name {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 3vmin;
+    font-family: arial;
+    color: black;
+    outline: none;
+}
+
+.little-profile > div > .username::before {
+    content: "@";
+    position: relative;
+    top: -2px;
+    left: -5px;
+    font-size: 80%;
+}
+
+.little-profile > div > .username {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 2.5vmin;
+    text-align: center;
+    outline: none;
+}

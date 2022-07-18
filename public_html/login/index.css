@@ -1,0 +1,113 @@
+:root{
+    --text: 'Arial Black', Gadget, fantasy;
+    --footer: #FD9D4E;
+    --background: #FD9D4E;
+}
+html{
+    background: #FE5551;
+    overflow-x: hidden;
+}
+.title-png{
+    width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+}
+.connexion{
+    text-align: center;
+    align-items: center;
+    color: black;
+    font-size: 175%;
+    font-family: arial;
+    display: block;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 2px solid black;
+    width: max-content;
+}
+.disclaimer{
+    position: absolute;
+    display: none;
+    visibility: hidden;
+}
+.form{
+    display: block;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5%;
+}
+.input{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    width: 75%;
+    height: 7.5%;
+    font-size: 100%;
+    background: transparent;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding-left: 2%;
+}
+.submit{
+    background: #00ffe5;
+    width: 50%;
+    height: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    border-radius: 10px;
+    border: 1px solid black;
+    cursor: pointer;
+    font-size: 100%;
+}
+.border-form{
+    background: white;
+    width: 60vmin;
+    height: auto;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: calc(25vh + 20px);
+    margin-bottom: calc(19vh + 20px);
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+.checkbox-container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    width: max-content;
+    height: max-content;
+    cursor: pointer;
+    padding: 10px;
+}
+.checkbox-container > input {
+    display: none;
+    cursor: pointer;
+}
+.checkbox-container > label {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    column-gap: 10px;
+    cursor: pointer;
+    user-select: none;
+    align-items: center;
+}
+.checkbox-container > label > div:first-of-type {
+    width: 2vmin;
+    height: 2vmin;
+    background: red;
+    border: 1px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.checkbox-container > input:checked ~ label > div:first-of-type {
+    background: lime;
+}

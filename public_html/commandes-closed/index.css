@@ -1,0 +1,35 @@
+:root{
+    --text: 'Arial Black', Gadget, fantasy;
+    --footer: #ff3f49;
+    --background: #FD5D65;
+}
+html{
+    background: #FE5551;
+    overflow-x: hidden;
+}
+.oups{
+    font-size: 5.5vmin;
+    font-size: 3.5vw;
+    color: white;
+    font-family: var(--text);
+    display: block;
+    margin-top: 15%;
+    text-align: center;
+}
+.sous-oups{
+    font-size: 1.5vmin;
+    font-size: 1.1vw;
+    color: black;
+    font-family: var(--text);
+    display: block;
+    margin-top: 1%;
+    text-align: center;
+}
+.img-1{
+    width: 30vmin;
+    width: 30vw;
+    display: block;
+    margin-top: -15%;
+    margin-right: 5%;
+    margin-left: auto;
+}

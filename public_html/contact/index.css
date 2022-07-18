@@ -1,0 +1,152 @@
+:root{
+    --text: 'Arial Black', Gadget, fantasy;
+}
+html{
+    background: #FE5551;
+    overflow-x: hidden;
+}
+.div-form[data-portrait="yes"]{
+    background: rgb(255, 255, 255, 0.5);
+    border-radius: 10px;
+    display: block;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 4%;
+    padding-right: 4%;
+    margin-bottom: 5%;
+}
+.div-form[data-portrait="no"]{
+    background: rgb(255, 255, 255, 0.5);
+    border-radius: 10px;
+    display: block;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    width: min-content;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-bottom: 5%;
+}
+.input-contact[data-portrait="yes"]{
+    outline: none;
+    border-radius: 10px;
+    width: 80vmin;
+    height: 10vmin;
+    border: 2px solid #FD9D4E;
+    box-shadow: 0 20px 20px -10px #FD9D4E, 0 20px 20px -10px #FD9D4E;
+    background: transparent;
+    display: block;
+    margin-top: 2.5vmin;
+    font-size: 2.5vmin;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+.input-contact[data-portrait="no"]{
+    outline: none;
+    border-radius: 10px;
+    width: 50vmin;
+    height: 10vmin;
+    border: 2px solid #FD9D4E;
+    box-shadow: 0 20px 20px -10px #FD9D4E, 0 20px 20px -10px #FD9D4E;
+    background: transparent;
+    display: block;
+    margin-top: 2.5vmin;
+    font-size: 2vmin;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+.input-contact-message[data-portrait="yes"]{
+    outline: none;
+    border-radius: 10px;
+    width: 80vmin;
+    height: 50vmin;
+    border: 2px solid #FD9D4E;
+    box-shadow: 0 20px 20px -10px #FD9D4E, 0 20px 20px -10px #FD9D4E;
+    background: transparent;
+    display: block;
+    margin-top: 2.5vmin;
+    font-size: 2.5vmin;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+.input-contact-message[data-portrait="no"]{
+    outline: none;
+    border-radius: 10px;
+    width: 50vmin;
+    height: 25vmin;
+    border: 2px solid #FD9D4E;
+    box-shadow: 0 20px 20px -10px #FD9D4E, 0 20px 20px -10px #FD9D4E;
+    background: transparent;
+    display: block;
+    margin-top: 2.5vmin;
+    font-size: 2vmin;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+.me-contacter[data-portrait="yes"]{
+    user-select: none;
+    font-size: 5.5vmin;
+    font-size: 4.5vw;
+    color: white;
+    font-family: var(--text);
+    display: block;
+    margin-top: 8vh;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-bottom: 1vmin solid white;
+    width: 70vmin;
+}
+.me-contacter[data-portrait="no"]{
+    user-select: none;
+    font-size: 5.5vmin;
+    font-size: 3.5vw;
+    color: white;
+    font-family: var(--text);
+    display: block;
+    margin-top: 8vh;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-bottom: 1vmin solid white;
+    width: 70vmin;
+}
+.envoyer[data-portrait="no"]{
+    display: block;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    background: transparent;
+    border-radius: 10px;
+    width: 15vmin;
+    height: 5vmin;
+    cursor: pointer;
+    border: 2px solid white;
+    transition: 2s;
+}
+.envoyer:hover[data-portrait="no"]{
+    box-shadow: 0 0 20px white,
+                0 0 20px white;
+    transition: 1s;
+    border-radius: 10px 5em;
+}
+.envoyer[data-portrait="yes"]{
+    display: block;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    background: transparent;
+    border-radius: 10px;
+    width: 15vmin;
+    height: 5vmin;
+    cursor: pointer;
+    border: 2px solid white;
+    box-shadow: 0 0 20px white,
+                0 0 20px white;
+}

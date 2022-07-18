@@ -1,0 +1,117 @@
+:root{
+    --text: 'Arial Black', Gadget, fantasy;
+    --footer: #FD9D4E;
+    --background: #FD9D4E;
+}
+html{
+    background: #FE5551;
+    overflow-x: hidden;
+}
+.title-png{
+    width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+}
+.inscription{
+    text-align: center;
+    align-items: center;
+    color: black;
+    font-size: 175%;
+    font-family: arial;
+    display: block;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 2px solid black;
+    width: max-content;
+}
+.disclaimer{
+    position: absolute;
+    display: none;
+    visibility: hidden;
+}
+.form{
+    display: block;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5%;
+}
+.input{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    width: 75%;
+    height: 7.5%;
+    font-size: 100%;
+    background: transparent;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding-left: 2%;
+}
+.submit{
+    background: #00ffe5;
+    width: 50%;
+    height: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    border-radius: 10px;
+    border: 1px solid black;
+    cursor: pointer;
+    font-size: 100%;
+}
+.border-form{
+    background: white;
+    width: 60vmin;
+    height: auto;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: calc(13vh + 20px);
+    margin-bottom: calc(7vh + 20px);
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+.username-info, .firstname-info, .lastname-info, .confirm-info {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    font-size: 100%;
+    background: transparent;
+    padding-left: 2%;
+    width: 75%;
+}
+.password-info {
+    --color: red;
+    --percentage: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    width: 75%;
+    height: 1.5%;
+    font-size: 100%;
+    background: #AAAAAA;
+    border-radius: 10px;
+    border: 1px solid black;
+    overflow: hidden;
+}
+.password-info > div {
+    background: var(--color);
+    height: 100%;
+    width: max(10px, calc(var(--percentage) * 1%));
+    transition: 250ms;
+}
+.compte-deja-cree{
+    color: black;
+    font-size: 2vmin;
+    display: block;
+    margin-top: 7.5%;
+    padding-bottom: 5%;
+}

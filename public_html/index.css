@@ -1,0 +1,71 @@
+:root{
+    --text: 'Arial Black', Gadget, fantasy;
+    --footer: #FD9D4E;
+    --background: #FD9D4E;
+}
+html{
+    background: #FE5551;
+    overflow-x: hidden;
+}
+footer {
+    position: absolute !important;
+    top: 100vh !important;
+}
+.bienvenue[data-portrait="yes"]{
+    text-align: center;
+    user-select: none;
+    font-size: 7.5vmin;
+    font-size: 5.5vw;
+    color: white;
+    font-family: var(--text);
+    display: block;
+    margin-top: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.sous-bienvenue[data-portrait="yes"]{
+    text-align: center;
+    user-select: none;
+    font-size: 3vmin;
+    font-size: 2.47vw;
+    color: black;
+    font-family: var(--text);
+    display: block;
+    margin-top: 1%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.bienvenue[data-portrait="no"]{
+    user-select: none;
+    font-size: 5vmin;
+    font-size: 3vw;
+    color: white;
+    font-family: var(--text);
+    display: block;
+    margin-top: 15%;
+    margin-left: 5%;
+    margin-right: auto;
+}
+.sous-bienvenue[data-portrait="no"]{
+    user-select: none;
+    font-size: 1.5vmin;
+    font-size: 1.1vw;
+    color: black;
+    font-family: var(--text);
+    display: block;
+    margin-top: 1%;
+    margin-left: 5%;
+    margin-right: auto;
+}
+.img-1[data-portrait="yes"]{
+    display: none;
+}
+.img-1[data-portrait="no"]{
+    user-select: none;
+    width: 30vmin;
+    width: 30vw;
+    display: block;
+    margin-top: -15%;
+    margin-right: 5%;
+    margin-left: auto;
+}

@@ -1,0 +1,127 @@
+:root{
+    --text: 'Arial Black', Gadget, fantasy;
+    --footer: #FD9D4E;
+    --background: #FD9D4E;
+}
+html{
+    background: #FE5551;
+    overflow-x: hidden;
+}
+.mes-creations{
+    user-select: none;
+    font-size: 5.5vmin;
+    font-size: 3.5vw;
+    color: white;
+    font-family: var(--text);
+    display: block;
+    margin-top: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-bottom: 1vmin solid white;
+    width: 70vmin;
+}
+.creation{
+    user-select: none;
+    font-family: var(--text);
+    text-align: center;
+    background: rgba(255, 255, 255, 0.37);
+    width: 50%;
+    height: auto;
+    border-radius: 25px;
+    display: block;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 2%;
+}
+.mes-creations[data-portrait="yes"]{
+    user-select: none;
+    font-size: 5.5vmin;
+    font-size: 3.5vw;
+    color: white;
+    font-family: var(--text);
+    display: block;
+    margin-top: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-bottom: 1vmin solid white;
+    width: 70vmin;
+}
+.creation[data-portrait="yes"]{
+    user-select: none;
+    font-family: var(--text);
+    text-align: center;
+    background: rgba(255, 255, 255, 0.37);
+    width: 90%;
+    height: auto;
+    border-radius: 25px;
+    display: block;
+    margin-top: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 2%;
+}
+.mes-creations[data-portrait="no"]{
+    user-select: none;
+    font-size: 5.5vmin;
+    font-size: 3.5vw;
+    color: white;
+    font-family: var(--text);
+    display: block;
+    margin-top: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-bottom: 1vmin solid white;
+    width: 70vmin;
+}
+.creation[data-portrait="no"]{
+    user-select: none;
+    font-family: var(--text);
+    text-align: center;
+    background: rgba(255, 255, 255, 0.37);
+    width: 90%;
+    height: auto;
+    border-radius: 25px;
+    display: block;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 2%;
+}
+.img{
+    user-select: none;
+    border-radius: 25px;
+    width: 50%;
+    height: auto;
+}
+.img[data-portrait="yes"]{
+    user-select: none;
+    border-radius: 25px;
+    width: 80%;
+    height: auto;
+}
+.img[data-portrait="no"]{
+    user-select: none;
+    border-radius: 25px;
+    width: 50%;
+    height: auto;
+}
+br{
+    user-select: none;
+}
+.commandes{
+    color: black;
+    font-family: 'Arial Black', Gadget, fantasy;
+    font-size: 2vmin;
+}
+.commandes a{
+    color: green;
+    transition: 1s;
+}
+.commandes a:hover{
+    color: blue;
+    transition: 1s;
+}

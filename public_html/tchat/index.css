@@ -1,0 +1,95 @@
+html{
+    background: #FE5551;
+    overflow-x: hidden;
+}
+#messages-container {
+    --input-lines: 1;
+    padding-top: 15px;
+    height: calc(90vh - 6.5vmax);
+    width: 95vw;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: calc(90vh - 6.5vmax - calc(2.5vmin * min(15, var(--input-lines)))) calc(2.5vmin * min(15, var(--input-lines)));
+    row-gap: 2vmin;
+    margin-top: 6.5vmax;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#messages-container[data-portrait="yes"] {
+    margin-top: 6.5vh;
+    height: calc(90vh - 6.5vh);
+}
+#messages-container > div:first-of-type {
+	position: relative;
+    border: 2px solid grey;
+    border-radius: 20px;
+	height: 100%;
+	background: #777777;
+}
+.div-tchat {
+	position: relative;
+    background: transparent;
+    width: calc(95vw - 10px);
+	height: 100%;
+    display: block;
+    overflow-y: scroll;
+    overflow-x: hidden;
+	margin-left: 10px;
+}
+.message-content:hover {
+	background: #555555;
+}
+#messages{
+    font-family: arial;
+    font-size: 2vmin;
+    color: #d8d8d8;
+}
+.form {
+    display: flex;
+    width: 100%;
+	height: calc(0.6vmin + 2vmin * min(15, var(--input-lines)));
+}
+.form[data-portrait="yes"]{
+    width: 100%;
+	display: grid;
+	grid-template-columns: 1fr auto;
+}
+.input-envoyer {
+    background: #FD9D4E;
+    height: 125%;
+    border-radius: 5px;
+    border: 2px solid grey;
+    margin-left: 20px;
+	font-size: 2vmin;
+	width: min-content;
+}
+.input-message {
+    background: #FD9D4E;
+	width: 100%;
+    height: 125%;
+    border-radius: 5px;
+    border: 2px solid grey;
+    outline: none;
+    padding-left: 1%;
+    font-size: 2vmin;
+    resize: none;
+}
+.little-profile {
+    height: 3vmin !important;
+    margin-bottom: 10px !important;
+}
+.spoiler {
+    user-select: none;
+    color: #333333;
+    background: #333333;
+}
+.spoiler-discovered {
+    color: #333333;
+    background: #CCCCCC;
+}
+.message-content, .message-content * {
+	word-wrap: break-word;
+	word-break: break-word;
+	overflow-wrap: break-word;
+}
